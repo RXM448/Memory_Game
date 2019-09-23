@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 
 // The game creates a 3 * 4 grid of buttons all with the same "cover" image, then secretly assigns each of 6 images to two random buttons. 
 // when a button is clicked it reveals the assigned image, when a second button is clicked the game checks to see if they are assigned to the same image.
-// If so the buttons remain showing the assigned image, if not they return to the cover image 
+// If so the buttons remain showing the assigned image, if not they return to the cover image.
 public class MemoryGame {
 
 	public static final int WIDTH = 600;
